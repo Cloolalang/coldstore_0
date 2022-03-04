@@ -1,8 +1,8 @@
 coldstore_0
 ===========
 
-1) stop your node-red  (  node-red-stop  ).
-2) in your folder:  usr/lib/node_modules/node-red
+1) stop  node-red  (  node-red-stop  ).
+2) in the folder:  usr/lib/node_modules/node-red
 replace these files with these from this repo
 
 flows.json
@@ -17,6 +17,10 @@ package.json
 Your node red flows workspace is at {yourIP address};1880
 
 Your web dashboard is at {yourIP address};1880/ui
+
+The MQTT nodes need to have the correct config for connect to the Mosquitto broker (IP address, etc)
+
+
 
 
 
