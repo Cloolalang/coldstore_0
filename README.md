@@ -14,6 +14,11 @@ package.json
 4) Restart node-red (  node-red-start  ).
 
 
+Your node red flows workspace is at {yourIP address};1880
+
+Your web dashboard is at {yourIP address};1880/ui
+
+
 
 
 
