@@ -2,18 +2,18 @@ coldstore_0
 ===========
 
 1) stop your node-red  (  node-red-stop  ).
-2) replace the files:  
+2) in your folder:  _data
+replace these files with these from this repo
 
+flows.json
+flows_cred.json
+package.json
 
-with these in this repo
+3) unzip node_modules.rar and replace the node_modules dir  (these are the nodes packages).
 
-
-3)
-
-
-
-3) (Optional if you want password access ; Replace your settings.js file at    /root/.node-red/settings.js   with this one in the this repo as it has and password setup.
 4) Restart node-red (  node-red-start  ).
+
+
 
 
 
