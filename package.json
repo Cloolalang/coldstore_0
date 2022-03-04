@@ -1,12 +1,20 @@
 {
-    "name": "coldstore_0",
-    "description": "dev",
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
-    "node-red": {
-        "settings": {
-            "flowFile": "flows.json",
-            "credentialsFile": "flows_cred.json"
-        }
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-bool-gate": "~1.0.2",
+        "node-red-contrib-influxdb": "~0.6.1",
+        "node-red-contrib-message-counter": "~1.0.1",
+        "node-red-contrib-moment": "~4.0.0",
+        "node-red-contrib-toggle": "~0.1.1",
+        "node-red-contrib-twin-bcrypt": "0.0.4",
+        "node-red-contrib-ui-led": "~0.4.11",
+        "node-red-contrib-ui-statechart": "~0.1.4",
+        "node-red-dashboard": "~3.1.6",
+        "node-red-node-email": "~1.14.0",
+        "node-red-node-ping": "~0.3.1",
+        "ttb-node-red-counter": "~0.1.0"
     }
 }
