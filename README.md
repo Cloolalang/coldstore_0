@@ -1,9 +1,3 @@
 coldstore_0
 ===========
-
-dev
-
-### About
-
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
+replace your settings.js file at  /root/.node-red/settings.js with this one in the this repo as it has project mode enables and password setup
