@@ -21,7 +21,7 @@ Your web dashboard is at {yourIP address};1880/ui
 The MQTT nodes need to have the correct config for connect to the Mosquitto broker (IP address, etc)
 
 
-
+Only use this settings.js if you need to enable password/project mode etc
 
 
 
