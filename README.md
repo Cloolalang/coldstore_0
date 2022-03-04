@@ -2,7 +2,7 @@ coldstore_0
 ===========
 
 1) stop your node-red  (  node-red-stop  ).
-2) in your folder:  _data
+2) in your folder:  usr/lib/node_modules/node-red
 replace these files with these from this repo
 
 flows.json
