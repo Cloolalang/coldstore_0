@@ -1,0 +1,27 @@
+Rule1 triggers alarms from either senor, (either for upper of lower setpoints):
+
+
+Rule1 ON Tele-DS18B20-1#Temperature>%Mem1% DO Backlog Power1 1; Publish stat/coldstore_0/ALARM {"DS18B201overtemp":"1"} ENDON ON Tele-DS18B20-2#Temperature>%Mem3% DO Backlog Power1 1; Publish stat/coldstore_0/ALARM {"DS18B202overtemp":"1"} ENDON ON Tele-DS18B20-1#Temperature<%Mem2% DO Backlog Power1 1; Publish stat/coldstore_0/ALARM {"DS18B201undertemp":"1"} ENDON ON Tele-DS18B20-2#Temperature<%Mem4% DO Backlog Power1 1; Publish stat/coldstore_0/ALARM {"DS18B202undertemp":"1"} ENDON 
+
+
+
+
+
+
+
+Rule 2 sends a alarm cancel every 25secs after teleperiod (if any sensor is still outside any setpoint, it will be re-riggered) and pubs LWT online:
+
+
+Rule2 ON Tele-DS18B20-1 DO Ruletimer1 25 ENDON ON rules#timer=1 DO Backlog Power1 0; Publish stat/coldstore_0/ALARM {"DS18B201undertemp":"0"}  ENDON ON Tele-DS18B20-2 DO Ruletimer1 25 ENDON ON rules#timer=1 DO Backlog Power1 0; Publish stat/coldstore_0/ALARM {"DS18B202undertemp":"0"}; Publish tele/coldstore_0/LWT Online ENDON
+
+
+
+
+
+
+
+Rule3  Door:
+
+
+
+Rule3 ON Switch1#State=1 DO Backlog Rule2 0; Ruletimer2 %mem10% ENDON ON rules#timer=2 DO Backlog Power1 1; Publish stat/coldstore_0/ALARM {"door_0":"1"} ENDON ON Switch1#State=0 DO Backlog Rule2 1; Power1 0; Ruletimer2 0; Publish stat/coldstore_0/ALARM {"door_0":"0"} ENDON
