@@ -6,8 +6,11 @@ Node-Red setup
 replace these files with these from this repo
 
 flows.json
+
 flows_cred.json
+
 package.json
+
 
 3) unzip node_modules.rar and replace the node_modules dir  (these are the nodes packages).
 
