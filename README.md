@@ -1,4 +1,4 @@
-coldstore_0
+Node-Red setup
 ===========
 
 1) stop  node-red  (  node-red-stop  ).
