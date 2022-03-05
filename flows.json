@@ -386,7 +386,7 @@
             "78e1e7d0588ce078",
             "0fa9a5258a1622f6"
         ],
-        "x": 4,
+        "x": 14,
         "y": 19,
         "w": 1112,
         "h": 262
@@ -7562,7 +7562,7 @@
         "g": "12a71c68e037171b",
         "name": "Unless replaceing Home Tab @ numeric index 0. Place all new Tabs below Account Tab with a numeric index of 6 or greater",
         "info": "",
-        "x": 450,
+        "x": 460,
         "y": 200,
         "wires": []
     },
@@ -9132,7 +9132,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 370,
+        "x": 380,
         "y": 140,
         "wires": []
     },
@@ -9143,7 +9143,7 @@
         "g": "12a71c68e037171b",
         "name": "Please setup a email node and attach it to the link in, and or replacing the debug node if you enable email support in the admin console of the dashboard page",
         "info": "",
-        "x": 560,
+        "x": 570,
         "y": 100,
         "wires": []
     },
@@ -9158,7 +9158,7 @@
             "c58a466d79445350",
             "21eb15a68b127821"
         ],
-        "x": 275,
+        "x": 285,
         "y": 140,
         "wires": [
             [
@@ -9173,7 +9173,7 @@
         "g": "12a71c68e037171b",
         "name": "Email Node Goes Here",
         "info": "",
-        "x": 140,
+        "x": 150,
         "y": 140,
         "wires": []
     },
@@ -9184,7 +9184,7 @@
         "g": "12a71c68e037171b",
         "name": "Email",
         "info": "",
-        "x": 90,
+        "x": 100,
         "y": 60,
         "wires": []
     },
@@ -9195,7 +9195,7 @@
         "g": "12a71c68e037171b",
         "name": "Leave property [To] field blank. The email address is provided by the users account!",
         "info": "",
-        "x": 450,
+        "x": 460,
         "y": 60,
         "wires": []
     },
@@ -13831,7 +13831,7 @@
         "g": "12a71c68e037171b",
         "name": "Look at Automation Tab 6 below for example of secureing your page",
         "info": "",
-        "x": 280,
+        "x": 290,
         "y": 240,
         "wires": []
     },
