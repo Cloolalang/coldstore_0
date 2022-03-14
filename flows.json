@@ -327,46 +327,6 @@
         "h": 574
     },
     {
-        "id": "55e464ef.b89adc",
-        "type": "group",
-        "z": "1173c82f.938c8",
-        "g": "bbd2484.ddde038",
-        "name": "Controls",
-        "style": {
-            "fill": "#ffcf3f",
-            "label": true
-        },
-        "nodes": [
-            "c84fc56e.248c88",
-            "dd232594.591ac8",
-            "b4287368.019748",
-            "fdbfd42c.ddc208",
-            "c5cfcd08.20d528",
-            "68aed72f.f4445",
-            "dc9ad9d9.c169f8",
-            "5e76fcaf.f4400c",
-            "d374803c.b4799",
-            "fa6a12b0.3409f8",
-            "f8beac32.4682f",
-            "2a5982c7.7e4f5e",
-            "4150b7b1.ba5788",
-            "c089b199.1fdf3",
-            "57bbdb6d.8096bc",
-            "11079783.00a9f",
-            "d1364909.24acb8",
-            "4ccda17e.42b31",
-            "3110c218.8f5a0e",
-            "0ce7a40d07ecdd3f",
-            "59b11097cd696ad3",
-            "4a2f9d802dd6e662",
-            "ce9eee9769e5746b"
-        ],
-        "x": 34,
-        "y": 3779,
-        "w": 742,
-        "h": 522
-    },
-    {
         "id": "12a71c68e037171b",
         "type": "group",
         "z": "c41dabcb5f7e3c2a",
@@ -387,9 +347,7 @@
             "0fa9a5258a1622f6"
         ],
         "x": 14,
-        "y": 19,
-        "w": 1112,
-        "h": 262
+        "y": 19
     },
     {
         "id": "3263de3e0f898f10",
@@ -421,9 +379,7 @@
             "3be19d1ade68f24f"
         ],
         "x": 14,
-        "y": 1099,
-        "w": 1382,
-        "h": 202
+        "y": 1099
     },
     {
         "id": "aed77accfef15d69",
@@ -493,9 +449,7 @@
             "de71fe4ed0997974"
         ],
         "x": 14,
-        "y": 439,
-        "w": 1392,
-        "h": 642
+        "y": 439
     },
     {
         "id": "2e4a973ce65408b1",
@@ -567,9 +521,7 @@
             "a36cebefdfc67741"
         ],
         "x": 14,
-        "y": 1579,
-        "w": 1382,
-        "h": 582
+        "y": 1579
     },
     {
         "id": "7ae971cd6a4ab6e7",
@@ -605,9 +557,7 @@
             "928f8660eeae5a19"
         ],
         "x": 14,
-        "y": 1319,
-        "w": 1382,
-        "h": 242
+        "y": 1319
     },
     {
         "id": "56111ac47191353b",
@@ -759,9 +709,7 @@
             "32f1e25ff50f7403"
         ],
         "x": 14,
-        "y": 2179,
-        "w": 1452,
-        "h": 1202
+        "y": 2179
     },
     {
         "id": "8feac48172d8bf79",
@@ -790,9 +738,7 @@
             "c079520fb02e505a"
         ],
         "x": 34,
-        "y": 3399,
-        "w": 1162,
-        "h": 282
+        "y": 3399
     },
     {
         "id": "6a660e82fb2466d2",
@@ -836,9 +782,7 @@
             "8e9ccf34228ae865"
         ],
         "x": 4,
-        "y": 3699,
-        "w": 1422,
-        "h": 322
+        "y": 3699
     },
     {
         "id": "7f3bda38b203a79d",
@@ -855,9 +799,47 @@
             "2132e47088039d39"
         ],
         "x": 14,
-        "y": 299,
-        "w": 192,
-        "h": 122
+        "y": 299
+    },
+    {
+        "id": "55e464ef.b89adc",
+        "type": "group",
+        "z": "1173c82f.938c8",
+        "g": "bbd2484.ddde038",
+        "name": "Controls",
+        "style": {
+            "fill": "#ffcf3f",
+            "label": true
+        },
+        "nodes": [
+            "c84fc56e.248c88",
+            "dd232594.591ac8",
+            "b4287368.019748",
+            "fdbfd42c.ddc208",
+            "c5cfcd08.20d528",
+            "68aed72f.f4445",
+            "dc9ad9d9.c169f8",
+            "5e76fcaf.f4400c",
+            "d374803c.b4799",
+            "fa6a12b0.3409f8",
+            "f8beac32.4682f",
+            "2a5982c7.7e4f5e",
+            "4150b7b1.ba5788",
+            "c089b199.1fdf3",
+            "57bbdb6d.8096bc",
+            "11079783.00a9f",
+            "d1364909.24acb8",
+            "4ccda17e.42b31",
+            "3110c218.8f5a0e",
+            "0ce7a40d07ecdd3f",
+            "59b11097cd696ad3",
+            "4a2f9d802dd6e662",
+            "ce9eee9769e5746b"
+        ],
+        "x": 34,
+        "y": 3779,
+        "w": 742,
+        "h": 522
     },
     {
         "id": "40dabcc2f273ed5f",
@@ -1028,16 +1010,6 @@
         "collapse": false
     },
     {
-        "id": "1deed69fcda2c602",
-        "type": "ui_group",
-        "name": "Default coldstore",
-        "tab": "5c4d39b567c71a51",
-        "order": 5,
-        "disp": false,
-        "width": "6",
-        "collapse": false
-    },
-    {
         "id": "62b44eba9c39b679",
         "type": "ui_group",
         "name": "Default",
@@ -1098,16 +1070,6 @@
         "collapse": false
     },
     {
-        "id": "9a6254e6.c472c8",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "",
-        "order": 1,
-        "disp": false,
-        "width": "8",
-        "collapse": false
-    },
-    {
         "id": "d62e4f05.76a81",
         "type": "ui_group",
         "name": "Alarms coldstore_0",
@@ -1138,54 +1100,6 @@
         "collapse": false
     },
     {
-        "id": "b8630066.5d446",
-        "type": "ui_group",
-        "name": "One dimension Array",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "65dfd687.bc39a8",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "5394d338.3dd19c",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "85815d64.6c718",
-        "type": "ui_group",
-        "name": "",
-        "tab": "bb7236c.d277cc8",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "6362fed0d780d457",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "0a51efc7ca8bb6a3",
-        "type": "ui_group",
-        "name": "Group 2",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": 6
-    },
-    {
         "id": "4914d4b6012ce9fd",
         "type": "ui_group",
         "name": "Refridgerators & Freezers coldstore_0",
@@ -1200,86 +1114,6 @@
         "type": "ui_group",
         "name": "DS18B20-1 Local Alarm Controls coldstore_0",
         "tab": "5c4d39b567c71a51",
-        "order": 8,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "9c6d6c10d628edc2",
-        "type": "ui_group",
-        "name": "Alarms coldstore_1",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "7acd7c305efdd1c1",
-        "type": "ui_group",
-        "name": "Refridgerators & Freezers coldstore_1",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "afbb7ee5c76916e2",
-        "type": "ui_group",
-        "name": "Doors Local coldstore_1",
-        "tab": "",
-        "order": 3,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "e0fd5dd6ca80e438",
-        "type": "ui_group",
-        "name": "System Status coldstore_1",
-        "tab": "",
-        "order": 4,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "44f4b117c8025aa5",
-        "type": "ui_group",
-        "name": "Controls coldstore_1",
-        "tab": "",
-        "order": 5,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "7b04de70ad95151e",
-        "type": "ui_group",
-        "name": "DS18B20-1 Local Alarm Controls coldstore_1",
-        "tab": "",
-        "order": 6,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "bcf19869a60bb419",
-        "type": "ui_group",
-        "name": "DS18B20-2 Local Alarm Controls coldstore_1",
-        "tab": "",
-        "order": 7,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "e269610e15ea3539",
-        "type": "ui_group",
-        "name": "Door Local Alarm Controls coldstore_1",
-        "tab": "",
         "order": 8,
         "disp": true,
         "width": "6",
@@ -1365,40 +1199,6 @@
         "order": 20,
         "disabled": false,
         "hidden": false
-    },
-    {
-        "id": "a482d85407b28e21",
-        "type": "ui_link",
-        "name": "Link 10",
-        "icon": "open_in_browser",
-        "target": "newtab",
-        "order": 10
-    },
-    {
-        "id": "ed59a5bda7c9dfac",
-        "type": "mqtt-broker",
-        "name": "local",
-        "broker": "127.0.0.1",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "sessionExpiry": ""
     },
     {
         "id": "6a44f1d4.72a75",
@@ -6367,7 +6167,6 @@
         "id": "692d93619ad1760d",
         "type": "ui_numeric",
         "z": "1173c82f.938c8",
-        "g": "7f4066b5a86a06c0",
         "name": "",
         "label": "Minimum Length",
         "tooltip": "",
